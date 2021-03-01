@@ -191,7 +191,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
 
     override fun onStart() {
         super.onStart()
-        Timber.i("onStart Called")
+        Log.i(this.localClassName, "onStart Called")
     }
 
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
